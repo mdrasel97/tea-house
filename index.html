@@ -32,6 +32,13 @@
         .manrope {
         font-family: "Manrope", serif;
         }
+        .paragraph{
+          color: rgb(119, 119, 119);
+          font-family: Manrope;
+          font-size: 0.80rem;
+          font-weight: 500;
+          line-height: 20px;
+        }
     </style>
 </head>
 <body>
@@ -41,7 +48,7 @@
     <main class="w-10/12 mx-auto">
         <!-- banner section  -->
          <!-- banner container -->
-         <section class="md:flex justify-between items-center md:py-5 lg:py-20 ">
+         <section class="md:flex justify-between items-center md:py-5 lg:py-20 bg-orange-50 ">
             <!-- text content  -->
             <div class="w-11/12">
                 <h1 class="text-5xl lg:w-3/4 font-semibold my-5 manrope
@@ -55,19 +62,53 @@
                 <img class="" src="./images/banner.png" alt="">
 
             <!-- rating container  -->
-            <div class="shadow-lg bg-gray-100 flex p-5 justify-center items-center gap-5 absolute top-60 left-5 z-10 rounded">
+            <div class="shadow-lg bg-gray-100 flex p-4 justify-center items-center gap-5 absolute top-60 left-20 z-10 rounded">
                 <!-- star -->
                 <div>
-                    <i class="fa-solid fa-star text-transparent-gradient-to-r from-orange-300 to-orange-500"></i>
+                    <i class="fa-solid fa-star text-xl text-transparent-gradient-to-r from-orange-300 to-orange-500"></i>
                 </div>
                 <!-- reting -->
                  <div>
                     <p class="text-xl font-bold">5.00</p>
-                    <p>Trust Pilot Ratings</p>
+                    <p class="text-gray-500 text-xs">Trust Pilot Ratings</p>
                  </div>
             </div>
         </div>
          </section>
+
+         <!-- Our Featured Products -->
+          <section class="my-14">
+            <h2 class="text-center py-5 text-3xl font-bold">Our Featured Products</h2>
+            <p class="paragraph text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, <br> by injected humour, or randomised words which don't look even slightly believable. </p>
+          
+          <!-- card container  -->
+           <div class="my-5 grid grid-cols-4 gap-5 my-5">
+          <!-- card-1  -->
+           <div class="bg-gray-100 shadow text-center py-5 rounded-xl">
+            <img class=" p-3 rounded mx-auto" src="./images/tea-1.png" alt="">
+            <h3 class="font-medium">Green Tea</h3>
+            <p class="paragraph">Creamer could be replaced <br> by fresh milk</p>
+           </div>
+          <!-- card-2  -->
+           <div class="bg-gray-100 shadow text-center py-5 rounded-xl">
+            <img class=" p-3 rounded mx-auto" src="./images/tea-2.png" alt="">
+            <h3 class="font-medium">Milk Tea</h3>
+            <p class="paragraph">Creamer could be replaced <br> by fresh milk</p>
+           </div>
+          <!-- card-3  -->
+           <div class="bg-gray-100 shadow text-center py-5 rounded-xl">
+            <img class=" p-3 rounded mx-auto" src="./images/tea-3.png" alt="">
+            <h3 class="font-medium">black Tea</h3>
+            <p class="paragraph">Creamer could be replaced <br> by fresh milk</p>
+           </div>
+          <!-- card-4  -->
+           <div class="bg-gray-100 shadow text-center py-5 rounded-xl">
+            <img class=" p-3 rounded mx-auto" src="./images/tea-4.png" alt="">
+            <h3 class="font-medium">Lemon Tea</h3>
+            <p class="paragraph">Creamer could be replaced <br> by fresh milk</p>
+           </div>
+          
+          </section>
     </main>
     <footer>
 
